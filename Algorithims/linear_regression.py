@@ -48,7 +48,7 @@ dates_test = dates[len(X_train):]
 X_train_lr = X_train.reshape(X_train.shape[0], -1)
 X_test_lr = X_test.reshape(X_test.shape[0], -1)
 
-# Train
+# Train using the sklearn library
 model = LinearRegression()
 model.fit(X_train_lr, y_train)
 
